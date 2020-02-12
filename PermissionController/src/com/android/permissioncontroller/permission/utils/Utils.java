@@ -337,6 +337,8 @@ public final class Utils {
 
         PLATFORM_PERMISSIONS.put(Manifest.permission.BODY_SENSORS, SENSORS);
 
+        PLATFORM_PERMISSIONS.put(Manifest.permission.FAKE_PACKAGE_SIGNATURE, FAKE_PACKAGE);
+
         if (SdkLevel.isAtLeastT()) {
             PLATFORM_PERMISSIONS.put(Manifest.permission.POST_NOTIFICATIONS, NOTIFICATIONS);
             PLATFORM_PERMISSIONS.put(Manifest.permission.BODY_SENSORS_BACKGROUND, SENSORS);
